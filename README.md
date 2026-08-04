@@ -1,6 +1,6 @@
 # MM88 - Landing Page Cổng Link Tổng
 
-Landing page cao cấp phong cách resort vịnh Singapore tích hợp quả cầu 3D Three.js, thanh thông báo nổ hũ jackpot, hệ thống đánh giá động và tự động định tuyến liên kết theo domain tên miền trên Cloudflare Pages.
+Landing page cao cấp phong cách Hoàng Gia Anh Quốc tích hợp quả cầu 3D Three.js, thanh thông báo nổ hũ jackpot, hệ thống đánh giá động và tự động định tuyến liên kết theo domain tên miền trên Cloudflare Pages.
 
 ## Tính năng chính
 
