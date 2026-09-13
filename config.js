@@ -1,6 +1,6 @@
 /* Config JS - Dynaamic Domain Target Link Resolution */
 (function () {
-    var DEFAULT_REDIRECT_URL = "https://mm88e9e22qc.mm6799.com/register.html";
+    var DEFAULT_REDIRECT_URL = "";
     window.REDIRECT_URL = window.REDIRECT_URL || DEFAULT_REDIRECT_URL;
 
     function getCleanHost() {

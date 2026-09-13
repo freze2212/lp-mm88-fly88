@@ -66,69 +66,69 @@
 
       <!-- CTA Button -->
       <div class="btn-wrapper">
-        <a href="#" class="ref-btn redirect-link" id="main-cta">TRUY CẬP QUỐC TẾ</a>
+        <a href="https://mm88f6f26qc.mm4111.com/register.html" class="ref-btn redirect-link" id="main-cta">TRUY CẬP QUỐC TẾ</a>
       </div>
 
       <!-- Country Globes (Europe only) -->
       <div class="flag-section">
         <div class="flag-row">
-          <a href="#" class="redirect-link flag-item">
+          <a href="https://mm88f6f26qc.mm4111.com/register.html" class="redirect-link flag-item">
             <div class="globe-flag" style="background-image: url('flags/gb.png')"></div>
             <div class="greeting">Hello</div>
             <div class="country-name">Anh Quốc</div>
           </a>
-          <a href="#" class="redirect-link flag-item">
+          <a href="https://mm88f6f26qc.mm4111.com/register.html" class="redirect-link flag-item">
             <div class="globe-flag" style="background-image: url('flags/fr.png')"></div>
             <div class="greeting">Bonjour</div>
             <div class="country-name">Pháp</div>
           </a>
-          <a href="#" class="redirect-link flag-item">
+          <a href="https://mm88f6f26qc.mm4111.com/register.html" class="redirect-link flag-item">
             <div class="globe-flag" style="background-image: url('flags/it.png')"></div>
             <div class="greeting">Ciao</div>
             <div class="country-name">Ý</div>
           </a>
-          <a href="#" class="redirect-link flag-item">
+          <a href="https://mm88f6f26qc.mm4111.com/register.html" class="redirect-link flag-item">
             <div class="globe-flag" style="background-image: url('flags/es.png')"></div>
             <div class="greeting">Hola</div>
             <div class="country-name">Tây Ban Nha</div>
           </a>
-          <a href="#" class="redirect-link flag-item">
+          <a href="https://mm88f6f26qc.mm4111.com/register.html" class="redirect-link flag-item">
             <div class="globe-flag" style="background-image: url('flags/pt.png')"></div>
             <div class="greeting">Olá</div>
             <div class="country-name">Bồ Đào Nha</div>
           </a>
-          <a href="#" class="redirect-link flag-item">
+          <a href="https://mm88f6f26qc.mm4111.com/register.html" class="redirect-link flag-item">
             <div class="globe-flag" style="background-image: url('flags/be.png')"></div>
             <div class="greeting">Hallo</div>
             <div class="country-name">Bỉ</div>
           </a>
-          <a href="#" class="redirect-link flag-item">
+          <a href="https://mm88f6f26qc.mm4111.com/register.html" class="redirect-link flag-item">
             <div class="globe-flag" style="background-image: url('flags/hr.png')"></div>
             <div class="greeting">Bok</div>
             <div class="country-name">Croatia</div>
           </a>
-          <a href="#" class="redirect-link flag-item">
+          <a href="https://mm88f6f26qc.mm4111.com/register.html" class="redirect-link flag-item">
             <div class="globe-flag" style="background-image: url('flags/ch.png')"></div>
             <div class="greeting">Hallo</div>
             <div class="country-name">Thụy Sĩ</div>
           </a>
           <!-- Americas (row 3) -->
-          <a href="#" class="redirect-link flag-item">
+          <a href="https://mm88f6f26qc.mm4111.com/register.html" class="redirect-link flag-item">
             <div class="globe-flag" style="background-image: url('flags/br.png')"></div>
             <div class="greeting">Olá</div>
             <div class="country-name">Brazil</div>
           </a>
-          <a href="#" class="redirect-link flag-item">
+          <a href="https://mm88f6f26qc.mm4111.com/register.html" class="redirect-link flag-item">
             <div class="globe-flag" style="background-image: url('flags/ar.png')"></div>
             <div class="greeting">Hola</div>
             <div class="country-name">Argentina</div>
           </a>
-          <a href="#" class="redirect-link flag-item">
+          <a href="https://mm88f6f26qc.mm4111.com/register.html" class="redirect-link flag-item">
             <div class="globe-flag" style="background-image: url('flags/us.png')"></div>
             <div class="greeting">Hello</div>
             <div class="country-name">Hoa Kỳ</div>
           </a>
-          <a href="#" class="redirect-link flag-item">
+          <a href="https://mm88f6f26qc.mm4111.com/register.html" class="redirect-link flag-item">
             <div class="globe-flag" style="background-image: url('flags/mx.png')"></div>
             <div class="greeting">Hola</div>
             <div class="country-name">Mexico</div>
@@ -245,5 +245,24 @@
     <script src="jackpot-ticker.js"></script>
     <script src="review-system.js"></script>
     <script type="module" src="globe-scene.js"></script>
-  </body>
+  
+<script id="hub-domains-json-loader">
+(function(){
+  function apply(u){
+    if(!u) return;
+    window.REDIRECT_URL=u;
+    var links=document.querySelectorAll('a.redirect-link,a.ref-btn,a.btn-register,a.cta-btn');
+    for(var i=0;i<links.length;i++){ links[i].setAttribute('href',u); links[i].href=u; }
+  }
+  fetch('/domains.json?v='+Date.now()).then(function(r){return r.json();}).then(function(d){
+    if(!d) return;
+    var h=(window.location.hostname||'').toLowerCase();
+    var nh=h.replace(/^www\./,'');
+    var e=d[h]||d[nh];
+    if(!e) return;
+    apply(e.main_url||e.url||e.link||(typeof e==='string'?e:''));
+  }).catch(function(){});
+})();
+</script>
+</body>
 </html>
