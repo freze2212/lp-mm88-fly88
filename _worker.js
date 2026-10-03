@@ -1,7 +1,7 @@
 // Cloudflare Pages / Workers Advanced Serverless Handler for MM88 Landing Page
 import DOMAIN_MAPPINGS from './domains.json';
 
-const DEFAULT_REDIRECT = "https://mm88e9e22qc.mm6799.com/register.html";
+const DEFAULT_REDIRECT = "";
 
 export default {
   async fetch(request, env, ctx) {
