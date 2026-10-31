@@ -81,16 +81,6 @@
     "messenger_url": "https://mm88e9e36qc.mm88cc.com/register.html",
     "telegram_url": "https://mm88e9e36qc.mm88cc.com/register.html"
   },
-  "mm883qt.com": {
-    "main_url": "https://oggsz.mm88k.com/register.html",
-    "messenger_url": "https://oggsz.mm88k.com/register.html",
-    "telegram_url": "https://oggsz.mm88k.com/register.html"
-  },
-  "www.mm883qt.com": {
-    "main_url": "https://oggsz.mm88k.com/register.html",
-    "messenger_url": "https://oggsz.mm88k.com/register.html",
-    "telegram_url": "https://oggsz.mm88k.com/register.html"
-  },
   "mm886ok.vip": {
     "main_url": "https://ynjmk.mm4555.com/register.html",
     "messenger_url": "https://ynjmk.mm4555.com/register.html",
@@ -110,5 +100,15 @@
     "main_url": "https://hblf0.mm4111.com/register.html",
     "messenger_url": "https://hblf0.mm4111.com/register.html",
     "telegram_url": "https://hblf0.mm4111.com/register.html"
+  },
+  "mm883qt.com": {
+    "main_url": "https://mm88e9e24qc.01mm88.com/register.html",
+    "messenger_url": "https://mm88e9e24qc.01mm88.com/register.html",
+    "telegram_url": "https://mm88e9e24qc.01mm88.com/register.html"
+  },
+  "www.mm883qt.com": {
+    "main_url": "https://mm88e9e24qc.01mm88.com/register.html",
+    "messenger_url": "https://mm88e9e24qc.01mm88.com/register.html",
+    "telegram_url": "https://mm88e9e24qc.01mm88.com/register.html"
   }
 }
